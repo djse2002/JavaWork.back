@@ -3,8 +3,138 @@
 <head>
 <meta charset="UTF-8">
 <title>테이블 과제</title>
+<style>
+table, td {
+    border: 1px solid black;  /* 두께, 선종류, 선색상 */
+    border-collapse: collapse; /* border 붙이기 */
+}
+
+ td {
+	padding: 10px;	/* 셀 안쪽의 컨텐트와 border 사이 여백 */
+}
+</style>
+
+<style>
+
+.Table td {
+	border: 10px solid black;  /* 두께, 선종류, 선색상 */
+	 
+}
+</style>
+
 </head>
 <body>
+<!--  1번 -->
+	<table style="width: 50%">
+		<tr>
+			<td colspan="2" rowspan="3"></td>
+			<td colspan="3"></td>
+		</tr>
+
+		<tr>
+			<td colspan="3"></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<hr>
+
+<!--  2번 -->
+	<table style="width: 50%">
+		<tr>
+			<td colspan="2" rowspan="3"></td>
+			<td colspan="3"></td>
+		</tr>
+
+		<tr>
+			<td colspan="2"></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<hr>
+<!--  3번 -->
+	<table style="width: 50%">
+		<tr>
+			<td colspan="2"></td>
+			<td colspan="2" rowspan="2"></td>
+			<td rowspan="3"></td>
+		</tr>
+
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+
+		<tr>
+			<td colspan="2"></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<hr>
+<!-- 4번 -->
+	<table class="Table">
+		<tr style="height: 30px">
+			<td colspan="2"
+				style="border-top: 5px solid white; border-left: 5px solid white; height: 10px"></td>
+			<td colspan="3" style="border-top: 5px solid white;"></td>
+			<td colspan="2"
+				style="border-top: 5px solid white; background-color: yellow; width: 65px;"></td>
+			<td rowspan="6"
+				style="border-top: 5px solid white; border-right: 5px solid white; width: 30px;"></td>
+		</tr>
+		<tr>
+			<td rowspan=" 2" style="border-left: 5px solid white; width: 20px;"></td>
+			<td rowspan="4" colspan="4" style="background-color: orangered;"></td>
+			<td colspan="2" rowspan="2" style="background-color: yellow;"></td>
+		</tr>
+
+		<tr style="height: 120px;">
+		</tr>
+		<tr>
+			<td rowspan="3" style="border-left: 5px solid white;"></td>
+			<td rowspan="2"></td>
+			<td rowspan="2"></td>
+
+		</tr>
+
+		<tr style="height: 120px;">
+		</tr>
+
+		<tr>
+			<td colspan="2" rowspan="3"
+				style="background-color: black; width: 110px; height: 70px"></td>
+			<td rowspan="2" style="width: 60px; height: 5px"></td>
+			<td colspan="3" rowspan="2"></td>
+		</tr>
+
+		<tr>
+			<td rowspan="2"
+				style="border-left: 5px solid white; border-bottom: 5px solid white; background-color: yellow"></td>
+			<td rowspan="2"
+				style="border-right: 10px solid white; background-color: orangered;"></td>
+		</tr>
+
+		<tr>
+			<td colspan="2"
+				style="width: 60px; height: 1px; border-bottom: 5px solid white;"></td>
+			<td colspan="2"
+				style="width: 30px; height: 1px; border-bottom: 5px solid white; background-color: blue"></td>
+		</tr>
+
+	</table>
 
 </body>
 </html>
