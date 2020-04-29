@@ -19,8 +19,5 @@ public class Car extends Vehicle{
 		System.out.println("oil: " + getOil());
 	}
 	
-	
 }
-
-
 

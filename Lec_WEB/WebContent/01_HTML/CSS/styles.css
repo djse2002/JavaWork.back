@@ -2,6 +2,7 @@
 
 body {
 	background-color: ghostwhite;
+<<<<<<< HEAD
 }
 
 h1 {
@@ -11,3 +12,14 @@ h1 {
 p {
 	color: deeppink;
 }
+=======
+     }
+
+h1 {
+	color: dodgerblue;
+   }
+
+p {
+	color: deeppink;
+  }
+>>>>>>> refs/remotes/origin/master
